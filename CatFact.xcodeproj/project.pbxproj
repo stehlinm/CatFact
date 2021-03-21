@@ -47,7 +47,7 @@
 		EE6CA49324B3F4B900583758 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		EE6CA49524B3F77300583758 /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
 		EE6CA49724B3FCE200583758 /* Color+IntegerInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+IntegerInit.swift"; sourceTree = "<group>"; };
-		EE7F354124A555BD00580FB6 /* RxCatFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCatFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7F354124A555BD00580FB6 /* CatFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7F354424A555BD00580FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE7F354624A555BD00580FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE7F354824A555BD00580FB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		EE7F353824A555BD00580FB6 = {
 			isa = PBXGroup;
 			children = (
-				EE7F354324A555BD00580FB6 /* RxCatFact */,
+				EE7F354324A555BD00580FB6 /* CatFact */,
 				EE7F354224A555BD00580FB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,12 +148,12 @@
 		EE7F354224A555BD00580FB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE7F354124A555BD00580FB6 /* RxCatFact.app */,
+				EE7F354124A555BD00580FB6 /* CatFact.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE7F354324A555BD00580FB6 /* RxCatFact */ = {
+		EE7F354324A555BD00580FB6 /* CatFact */ = {
 			isa = PBXGroup;
 			children = (
 				EE7F354424A555BD00580FB6 /* AppDelegate.swift */,
@@ -168,7 +168,7 @@
 				EE7F355224A555C000580FB6 /* Info.plist */,
 				EE7F354C24A555C000580FB6 /* Preview Content */,
 			);
-			path = RxCatFact;
+			path = CatFact;
 			sourceTree = "<group>";
 		};
 		EE7F354C24A555C000580FB6 /* Preview Content */ = {
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE7F354024A555BD00580FB6 /* RxCatFact */ = {
+		EE7F354024A555BD00580FB6 /* CatFact */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7F355524A555C000580FB6 /* Build configuration list for PBXNativeTarget "RxCatFact" */;
+			buildConfigurationList = EE7F355524A555C000580FB6 /* Build configuration list for PBXNativeTarget "CatFact" */;
 			buildPhases = (
 				EE7F353D24A555BD00580FB6 /* Sources */,
 				EE7F353E24A555BD00580FB6 /* Frameworks */,
@@ -194,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = RxCatFact;
+			name = CatFact;
 			productName = RxCatFact;
-			productReference = EE7F354124A555BD00580FB6 /* RxCatFact.app */;
+			productReference = EE7F354124A555BD00580FB6 /* CatFact.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE7F353C24A555BD00580FB6 /* Build configuration list for PBXProject "RxCatFact" */;
+			buildConfigurationList = EE7F353C24A555BD00580FB6 /* Build configuration list for PBXProject "CatFact" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,7 +227,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE7F354024A555BD00580FB6 /* RxCatFact */,
+				EE7F354024A555BD00580FB6 /* CatFact */,
 			);
 		};
 /* End PBXProject section */
@@ -407,10 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RxCatFact/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatFact/Preview Content\"";
 				DEVELOPMENT_TEAM = 853YTHUAAR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RxCatFact/Info.plist;
+				INFOPLIST_FILE = CatFact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,10 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RxCatFact/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatFact/Preview Content\"";
 				DEVELOPMENT_TEAM = 853YTHUAAR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RxCatFact/Info.plist;
+				INFOPLIST_FILE = CatFact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE7F353C24A555BD00580FB6 /* Build configuration list for PBXProject "RxCatFact" */ = {
+		EE7F353C24A555BD00580FB6 /* Build configuration list for PBXProject "CatFact" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE7F355324A555C000580FB6 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7F355524A555C000580FB6 /* Build configuration list for PBXNativeTarget "RxCatFact" */ = {
+		EE7F355524A555C000580FB6 /* Build configuration list for PBXNativeTarget "CatFact" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE7F355624A555C000580FB6 /* Debug */,
