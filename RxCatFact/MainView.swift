@@ -10,19 +10,12 @@ import SwiftUI
 
 struct MainView: View {
   var body: some View {
-    TabView {
-      CatFactViewControllerAdapter()
-        .tabItem {
-          Image("rxswift")
-          Text("RxSwift")
-        }
       CatFactView()
         .tabItem {
           Image("swiftui")
           Text("SwiftUI")
         }
-    }
-    .edgesIgnoringSafeArea(.top)
+        .edgesIgnoringSafeArea(.top)
   }
 }
 
