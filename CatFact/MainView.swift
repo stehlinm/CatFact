@@ -11,10 +11,6 @@ import SwiftUI
 struct MainView: View {
   var body: some View {
       CatFactView()
-        .tabItem {
-          Image("swiftui")
-          Text("SwiftUI")
-        }
         .edgesIgnoringSafeArea(.top)
   }
 }
